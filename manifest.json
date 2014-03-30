@@ -1,0 +1,12 @@
+{
+  "name": "Bit.ly shortened URL",
+  "description": "Shortens Urls from either selected text, links, or pages and displays and alert with the bit.ly link.",
+  "version": "1.0",
+  "permissions": ["contextMenus"],
+  "background": {
+	    "persistent": true,
+	    "scripts": ["sample.js"],
+		"html": ["background.html"]
+   },
+  "manifest_version": 2
+}
